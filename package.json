@@ -4,7 +4,8 @@
   "description": "Автоматизировать на любом фреймворке (рекомендуем TypeScript + Playwright) любые два тест-кейса из задания 1 (Task1.md). Должны получиться на выходе 2 UI-теста. Тесты должны запускаться и должна быть понятная инструкция по запуску в .md формате - ее можно положить прямо в репозиторий.",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test --headed",
+    "test": "playwright test",
+    "headed": "playwright test --headed",
     "ui": "playwright test --ui"
   },
   "keywords": [],

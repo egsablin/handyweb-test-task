@@ -63,6 +63,16 @@ npx playwright install
 ```bash
 npm test
 ```
+with --ui 
+
+```bash
+npm run ui
+```
+with --headed
+
+```bash
+npm run headed
+```
 
 6. Show report:
 
